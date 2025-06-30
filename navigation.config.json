@@ -1,0 +1,268 @@
+{
+  "version": "1.0.0",
+  "title": "GCP 5.7 Documentation",
+  "description": "Comprehensive documentation for GCP 5.7 platform",
+  "baseUrl": "/docs",
+  "settings": {
+    "autoGenerateFromFiles": true,
+    "sortBy": "order",
+    "sortDirection": "asc",
+    "showMetadata": true,
+    "enableSearch": true,
+    "enableBreadcrumbs": true
+  },
+  "navigation": [
+    {
+      "id": "getting-started",
+      "title": "Getting Started",
+      "type": "folder",
+      "icon": "Home",
+      "order": 1,
+      "visible": true,
+      "children": [
+        {
+          "id": "introduction",
+          "title": "Introduction",
+          "type": "file",
+          "icon": "FileText",
+          "filePath": "docs/gcp-5.7/01_GRA_Core_Platform Introduction/introduction.md",
+          "href": "/docs/gcp-5.7/01_GRA_Core_Platform Introduction/introduction",
+          "order": 1,
+          "visible": true,
+          "metadata": {
+            "tags": ["introduction", "overview"],
+            "difficulty": "beginner",
+            "estimatedReadTime": 5,
+            "category": "getting-started"
+          }
+        },
+        {
+          "id": "quick-start",
+          "title": "Quick Start Guide",
+          "type": "file",
+          "icon": "FileText",
+          "filePath": "docs/gcp-5.7/02_User Guide/Local_setup/getting-started.md",
+          "href": "/docs/gcp-5.7/02_User Guide/Local_setup/getting-started",
+          "order": 2,
+          "visible": true,
+          "metadata": {
+            "tags": ["setup", "installation", "quickstart"],
+            "difficulty": "beginner",
+            "estimatedReadTime": 10,
+            "category": "getting-started"
+          }
+        }
+      ]
+    },
+    {
+      "id": "user-guide",
+      "title": "User Guide",
+      "type": "folder",
+      "icon": "Users",
+      "order": 2,
+      "visible": true,
+      "children": [
+        {
+          "id": "user-guide-overview",
+          "title": "User Guide Overview",
+          "type": "file",
+          "icon": "FileText",
+          "filePath": "docs/gcp-5.7/02_User Guide/user-guide.md",
+          "href": "/docs/gcp-5.7/02_User Guide/user-guide",
+          "order": 1,
+          "visible": true,
+          "metadata": {
+            "tags": ["user-guide", "overview"],
+            "difficulty": "beginner",
+            "estimatedReadTime": 8,
+            "category": "user-guide"
+          }
+        }
+      ]
+    },
+    {
+      "id": "api-reference",
+      "title": "API Reference",
+      "type": "folder",
+      "icon": "Code",
+      "order": 3,
+      "visible": true,
+      "children": [
+        {
+          "id": "api-overview",
+          "title": "API Overview",
+          "type": "file",
+          "icon": "FileText",
+          "filePath": "docs/gcp-5.7/03_API Reference/api-reference.md",
+          "href": "/docs/gcp-5.7/03_API Reference/api-reference",
+          "order": 1,
+          "visible": true,
+          "metadata": {
+            "tags": ["api", "reference", "endpoints"],
+            "difficulty": "intermediate",
+            "estimatedReadTime": 15,
+            "category": "api"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tutorials",
+      "title": "Examples & Tutorials",
+      "type": "folder",
+      "icon": "Layers",
+      "order": 4,
+      "visible": true,
+      "children": [
+        {
+          "id": "basic-setup",
+          "title": "Basic Setup",
+          "type": "file",
+          "icon": "FileText",
+          "filePath": "docs/gcp-5.7/04_Examples & Tutorials/basic-setup.md",
+          "href": "/docs/gcp-5.7/04_Examples & Tutorials/basic-setup",
+          "order": 1,
+          "visible": true,
+          "metadata": {
+            "tags": ["tutorial", "setup", "configuration"],
+            "difficulty": "beginner",
+            "estimatedReadTime": 15,
+            "category": "tutorial"
+          }
+        },
+        {
+          "id": "user-authentication",
+          "title": "User Authentication",
+          "type": "file",
+          "icon": "FileText",
+          "filePath": "docs/gcp-5.7/04_Examples & Tutorials/user-authentication.md",
+          "href": "/docs/gcp-5.7/04_Examples & Tutorials/user-authentication",
+          "order": 2,
+          "visible": true,
+          "metadata": {
+            "tags": ["tutorial", "authentication", "security", "jwt"],
+            "difficulty": "intermediate",
+            "estimatedReadTime": 25,
+            "category": "tutorial"
+          }
+        },
+        {
+          "id": "data-management",
+          "title": "Data Management",
+          "type": "file",
+          "icon": "FileText",
+          "filePath": "docs/gcp-5.7/04_Examples & Tutorials/data-management.md",
+          "href": "/docs/gcp-5.7/04_Examples & Tutorials/data-management",
+          "order": 3,
+          "visible": true,
+          "metadata": {
+            "tags": ["tutorial", "data", "database", "crud"],
+            "difficulty": "advanced",
+            "estimatedReadTime": 30,
+            "category": "tutorial"
+          }
+        }
+      ]
+    },
+    {
+      "id": "development",
+      "title": "Development Guide",
+      "type": "folder",
+      "icon": "Wrench",
+      "order": 5,
+      "visible": true,
+      "children": [
+        {
+          "id": "security-practices",
+          "title": "Security Best Practices",
+          "type": "file",
+          "icon": "FileText",
+          "filePath": "docs/gcp-5.7/05_Development Guide/security-best-practices.md",
+          "href": "/docs/gcp-5.7/05_Development Guide/security-best-practices",
+          "order": 1,
+          "visible": true,
+          "metadata": {
+            "tags": ["security", "best-practices", "development"],
+            "difficulty": "intermediate",
+            "estimatedReadTime": 20,
+            "category": "development"
+          }
+        },
+        {
+          "id": "performance-optimization",
+          "title": "Performance Optimization",
+          "type": "file",
+          "icon": "FileText",
+          "filePath": "docs/gcp-5.7/05_Development Guide/performance-optimization.md",
+          "href": "/docs/gcp-5.7/05_Development Guide/performance-optimization",
+          "order": 2,
+          "visible": true,
+          "metadata": {
+            "tags": ["performance", "optimization", "development"],
+            "difficulty": "advanced",
+            "estimatedReadTime": 18,
+            "category": "development"
+          }
+        },
+        {
+          "id": "monitoring",
+          "title": "Advanced Monitoring",
+          "type": "file",
+          "icon": "FileText",
+          "filePath": "docs/gcp-5.7/05_Development Guide/advanced-monitoring.md",
+          "href": "/docs/gcp-5.7/05_Development Guide/advanced-monitoring",
+          "order": 3,
+          "visible": true,
+          "metadata": {
+            "tags": ["monitoring", "observability", "development"],
+            "difficulty": "advanced",
+            "estimatedReadTime": 22,
+            "category": "development"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gcp-features",
+      "title": "GCP Feature In-Depth",
+      "type": "folder",
+      "icon": "Database",
+      "order": 6,
+      "visible": true,
+      "children": [
+        {
+          "id": "cloud-functions",
+          "title": "Cloud Functions",
+          "type": "file",
+          "icon": "FileText",
+          "filePath": "docs/gcp-5.7/06_GCP Feature InDepth/cloud-functions.md",
+          "href": "/docs/gcp-5.7/06_GCP Feature InDepth/cloud-functions",
+          "order": 1,
+          "visible": true,
+          "metadata": {
+            "tags": ["gcp", "cloud-functions", "serverless"],
+            "difficulty": "intermediate",
+            "estimatedReadTime": 16,
+            "category": "gcp"
+          }
+        },
+        {
+          "id": "cloud-storage",
+          "title": "Cloud Storage",
+          "type": "file",
+          "icon": "FileText",
+          "filePath": "docs/gcp-5.7/06_GCP Feature InDepth/cloud-storage.md",
+          "href": "/docs/gcp-5.7/06_GCP Feature InDepth/cloud-storage",
+          "order": 2,
+          "visible": true,
+          "metadata": {
+            "tags": ["gcp", "storage", "cloud", "buckets"],
+            "difficulty": "intermediate",
+            "estimatedReadTime": 14,
+            "category": "gcp"
+          }
+        }
+      ]
+    }
+  ]
+}
